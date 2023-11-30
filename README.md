@@ -8,6 +8,8 @@ Dispatcher is the main router, they are needed for handling incoming updates fro
 
 # events
 https://docs.aiogram.dev/en/dev-3.x/dispatcher/router.html
+<img width="941" alt="image" src="https://github.com/KidPudel/learning-bot-creation/assets/63263301/0833540a-cc50-4b37-8794-1c4aca6d79bb">
+
 
 # methods
 https://docs.aiogram.dev/en/dev-3.x/api/methods/index.html
