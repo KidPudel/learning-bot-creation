@@ -5,3 +5,9 @@ Dispatcher is the main router, they are needed for handling incoming updates fro
 - Routes are a way to process events
 - Routes has some specified events they can handle, as depicted below  
 ![image](https://github.com/KidPudel/learning-bot-creation/assets/63263301/3abed1ae-a5f5-45eb-aded-ee43a4327d29)
+
+# events
+https://docs.aiogram.dev/en/dev-3.x/dispatcher/router.html
+
+# methods
+https://docs.aiogram.dev/en/dev-3.x/api/methods/index.html
