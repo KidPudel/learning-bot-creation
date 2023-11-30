@@ -7,8 +7,8 @@ Dispatcher is the main router, they are needed for handling incoming updates fro
 ![image](https://github.com/KidPudel/learning-bot-creation/assets/63263301/3abed1ae-a5f5-45eb-aded-ee43a4327d29)
 
 # events
-https://docs.aiogram.dev/en/dev-3.x/dispatcher/router.html
-https://core.telegram.org/bots/api#august-18-2023
+[events for routes](https://docs.aiogram.dev/en/dev-3.x/dispatcher/router.html)
+[official docs](https://core.telegram.org/bots/api#august-18-2023)
 
 # methods
 https://docs.aiogram.dev/en/dev-3.x/api/methods/index.html
