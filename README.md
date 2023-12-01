@@ -14,4 +14,4 @@ Dispatcher is the main router, they are needed for handling incoming updates fro
 https://docs.aiogram.dev/en/dev-3.x/api/methods/index.html
 
 # filters
-filters are for events to be routed to the specific handler that match filter set
+[filters](https://docs.aiogram.dev/en/dev-3.x/dispatcher/filters/command.html) are for events to be routed to the specific handler that match filter set
