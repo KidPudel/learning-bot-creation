@@ -16,6 +16,5 @@ the order is metter
 https://docs.aiogram.dev/en/dev-3.x/api/methods/index.html
 
 # filters
-[filters](https://docs.aiogram.dev/en/dev-3.x/dispatcher/filters/command.html) are for events to be routed to the specific handler that match filter set
-
-the order is matter 
+[filters](https://docs.aiogram.dev/en/dev-3.x/dispatcher/filters/command.html) are for events (updates) to be routed to the specific handler that match filter set.  
+Searching filters is always stops on first match set of filters are passed (empty filters are always passses, so **the order is matter**) . By defauilt all updates has empty filter set, so all updates will be passed to the handler that has no filters
