@@ -10,8 +10,12 @@ Dispatcher is the main router, they are needed for handling incoming updates fro
 [event handlers](https://docs.aiogram.dev/en/dev-3.x/dispatcher/router.html)  
 [official docs](https://core.telegram.org/bots/api#august-18-2023)
 
+the order is metter
+
 # methods
 https://docs.aiogram.dev/en/dev-3.x/api/methods/index.html
 
 # filters
 [filters](https://docs.aiogram.dev/en/dev-3.x/dispatcher/filters/command.html) are for events to be routed to the specific handler that match filter set
+
+the order is matter 
