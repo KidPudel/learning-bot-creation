@@ -24,6 +24,19 @@ Searching filters is always stops on first match set of filters are passed (empt
 # state machine
 when you need to do some steps and determine on what bot message user is responding to
 
-This is done with a StateGroup, just define a states, to determine what step is now and what user must enter
+This is done with a StatesGroup, just define a states, to determine what step is now and what user must enter
 (like with enum group), just set state and then in a filters of a handler add needed state
 [fine-state-machine](https://docs.aiogram.dev/en/dev-3.x/dispatcher/finite_state_machine/index.html)
+
+# middleware
+middleware reusable software that is a bridge between the functional requirement and operating system, database, internet protocols.  
+
+It is a function that is triggered on every update from telegram bot api multiple times in a pipeline.  
+It can be applied for every event type (Message, Update, etc), in two places
+1. Outer scope - on each handler (before filters) `<router>.<event>.outer_middleware()`
+2. Inner scope - after passing filters, but before handler `<router>.<event>.middleware()`
+https://docs.aiogram.dev/en/dev-3.x/_images/basics_middleware.png
+
+| Middleware SHOULD be a subclass of BaseMiddleware  
+
+| To propagate event to the next middleware/handler, middleware should call `await handler(event, data)`. Otherwise it's going to stop processing event in middleware
